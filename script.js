@@ -1,7 +1,5 @@
 function letterCombinations(input_digit) {
-    if (!input_digit) {
-    return [];
-  }
+  
   const mapping = {
     '2': 'abc', 
     '3': 'def', 
